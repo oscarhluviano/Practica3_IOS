@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        textV.isEditable = false
+        
         let nombre = datos["name"] as? String
         let ingredientes = datos["ingredients"] as? String
         let instruc = datos["directions"] as? String
